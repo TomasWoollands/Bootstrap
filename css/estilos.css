@@ -40,7 +40,7 @@ body {
 .portada {
   min-height: 650px;
   background:
-    linear-gradient(rgba(35, 20, 10, 0.45),rgba(35, 20, 10, 0.65)),url("/imagenes/fondo.jfif");
+    linear-gradient(rgba(35, 20, 10, 0.45),rgba(35, 20, 10, 0.65)),url("../imagenes/fondo.jfif");
 
   background-size: cover;
   background-position: center;
