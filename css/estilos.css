@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   background-color: #e8d3ae;
   color: #382216;
   font-family: Georgia, serif;
@@ -39,9 +40,7 @@ body {
 .portada {
   min-height: 650px;
   background:
-    linear-gradient(rgba(35, 20, 10, 0.45),
-    rgba(35, 20, 10, 0.65)),
-    url("../imagenes/fondo.jfif");
+    linear-gradient(rgba(35, 20, 10, 0.45),rgba(35, 20, 10, 0.65)),url("/imagenes/fondo.jfif");
 
   background-size: cover;
   background-position: center;
@@ -108,7 +107,7 @@ body {
 }
 
 .tarjeta img {
-  height: 350px;
+  height: 380px;
   object-fit: cover;
 }
 
@@ -116,9 +115,7 @@ body {
   font-weight: bold;
 }
 
-/* DESARROLLO */
-
-
+/* SECCION OSCURA */
 
 .seccion-oscura {
   background-color: #493020;
@@ -128,6 +125,92 @@ body {
 .seccion-oscura h3 {
   margin-top: 20px;
   font-weight: bold;
+}
+
+/* SECCION DEL VIDEOJUEGO */
+
+.zona-videojuego {
+  background-color: #321b12;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.zona-videojuego h2 {
+  color: #f0dfbb;
+  margin-bottom: 15px;
+}
+
+.zona-videojuego .descripcion {
+  color: #d6b887;
+  margin-bottom: 30px;
+}
+
+/* CONTENEDOR DEL VIDEOJUEGO */
+
+.contenedor-juego {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 5px solid #633b25;
+  border-radius: 10px;
+  background-color: #321b12;
+}
+
+/* IFRAME */
+
+.contenedor-juego iframe {
+  display: block;
+  width: 800px;
+  height: 405px;
+  border: none;
+}
+
+/* SECCION DESARROLLO */
+
+.seccion-desarrollo {
+  background-color: #d6b887;
+  padding: 70px 0;
+}
+
+.seccion-desarrollo h2 {
+  color: #321b12;
+  margin-bottom: 30px;
+}
+
+/* ACORDEON */
+
+.accordion-item {
+  background-color: #f0dfbb;
+  border: 1px solid #633b25;
+}
+
+.accordion-button {
+  background-color: #633b25;
+  color: #f0dfbb;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #a66b3d;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  position: absolute;
+  right: 20px;
+}
+
+.accordion-body {
+  color: #321b12;
+  text-align: center;
+  font-size: 20px;
 }
 
 /* PIE DE PAGINA */
@@ -143,3 +226,4 @@ footer a {
   color: #d68b46;
   text-decoration: none;
 }
+
