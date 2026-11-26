@@ -64,6 +64,7 @@ function draw() {
 function keyPressed() {
   
   juego.detectarTecla();
+  return false;
   
 }
 function mousePressed() {
