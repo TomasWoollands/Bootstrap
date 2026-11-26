@@ -227,3 +227,89 @@ footer a {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+
+  /* PORTADA */
+  .portada {
+    min-height: 500px;
+    padding: 30px 15px;
+  }
+
+  .contenido-portada h1 {
+    font-size: 42px;
+    letter-spacing: 3px;
+  }
+
+  .contenido-portada p {
+    font-size: 17px;
+  }
+
+  /* MENU */
+  .navbar-brand {
+    font-size: 21px;
+  }
+
+  .nav-link {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  /* SECCIONES */
+  .seccion {
+    padding: 55px 15px;
+  }
+
+  .seccion h2,
+  .seccion-desarrollo h2,
+  .zona-videojuego h2 {
+    font-size: 30px;
+  }
+
+  .descripcion {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  /* TARJETAS */
+  .tarjeta img {
+    height: 250px;
+    object-fit: contain;
+  }
+
+  /* VIDEOJUEGO */
+  .zona-videojuego {
+    padding: 45px 10px;
+  }
+
+  .contenedor-juego {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .contenedor-juego iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 800 / 405;
+  }
+
+  /* ACORDEON */
+  .seccion-desarrollo {
+    padding: 45px 15px;
+  }
+
+  .accordion-button {
+    font-size: 15px;
+  }
+
+  .accordion-body {
+    font-size: 16px;
+    padding: 20px 12px;
+  }
+
+  /* PIE DE PAGINA */
+  footer {
+    padding: 25px 15px;
+    font-size: 14px;
+  }
+}
+
