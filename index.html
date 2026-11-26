@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>EL FIN - Videojuego</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+
+      <h1 class="navbar-brand" href="#inicio">EL FIN</h1>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#juego">El juego</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#desarrollo">Desarrollo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#equipo">Equipo</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- SECCION 1: INICIO -->
+  <section id="inicio" class="portada">
+
+    <div class="contenido-portada">
+      <h1>LA VENGANZA NO DESCANZA</h1>
+
+      <p>
+        Una aventura donde cada obstáculo
+        puede ser el último.
+      </p>
+
+      <iframe src="p5/index.html" class="btn btn-western">
+        JUGAR AHORA
+      </iframe>
+    </div>
+
+  </section>
+
+
+  <!-- SECCION 2: EL JUEGO -->
+  <section id="juego" class="seccion">
+
+    <div class="container">
+
+      <h2>EL JUEGO</h2>
+
+      <p class="descripcion">
+        Conocé la aventura, sus personajes
+        y los desafíos que deberás superar.
+      </p>
+
+      <div class="row g-4 mt-3">
+
+        <div class="col-md-4">
+          <div class="card tarjeta">
+            <img src="imagenes/GalopeCaballo-0.png" class="card-img-top" alt="Caballo">
+            <div class="card-body">
+              <h3>El caballo</h3>
+              <p>El protagonista de esta aventura. Deberá superar todos los obstáculos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card tarjeta">
+            <img src="imagenes/cactus.png" class="card-img-top img-fluid rounded" alt="Cactus">
+            <div class="card-body">
+              <h3>Los cactus</h3>
+              <p>Obstáculos del camino que deberás esquivar mediante saltos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card tarjeta">
+            <img src="imagenes/ave-1.png" class="card-img-top" alt="Ave">
+            <div class="card-body">
+              <h3>Las aves</h3>
+              <p>Otro peligro que aparece durante el recorrido.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="juego/index.html" class="btn btn-western">
+          JUGAR AL VIDEOJUEGO
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SECCION 3: DESARROLLO -->
+  <section id="desarrollo" class="seccion seccion-oscura">
+
+    <div class="container">
+
+      <h2>PROCESO DE DESARROLLO</h2>
+
+      <p class="descripcion">
+        Así fue el proceso de creación de EL FIN.
+      </p>
+
+      <div class="row align-items-center g-4 mt-3">
+
+        
+
+        <div class="col-md-6">
+
+          <h3>Programación y diseño</h3>
+
+          <p>
+            El videojuego fue desarrollado utilizando p5.js.
+            Durante el proceso trabajamos con animaciones,
+            movimiento de personajes y escenarios.
+          </p>
+
+          <h3>Mecánicas del juego</h3>
+
+          <p>
+            Implementamos un sistema de salto, detección
+            de colisiones, obstáculos y vidas.
+          </p>
+
+          <h3>Pruebas y correcciones</h3>
+
+          <p>
+            Realizamos diferentes pruebas para ajustar
+            las velocidades, las animaciones y la dificultad.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SECCION 4: EQUIPO -->
+  <section id="equipo" class="seccion">
+
+    <div class="container text-center">
+
+      <h2>NUESTRO EQUIPO</h2>
+
+      <p class="descripcion">
+        Detrás de esta aventura hay un equipo de desarrolladores.
+      </p>
+
+      <div class="row justify-content-center g-4 mt-3">
+
+        <div class="col-md-4">
+          <div class="card tarjeta">
+            <div class="card-body">
+              <h3>Woollands Tomás</h3>
+              <p>Desarrollo y programación.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card tarjeta">
+            <div class="card-body">
+              <h3>Zugazua Unai</h3>
+              <p>Desarrollo y programación.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PIE DE PAGINA -->
+  <footer>
+    <p>EL FIN - Proyecto final</p>
+    <p>Desarrollado con p5.js y Bootstrap</p>
+    <a href="#inicio">VOLVER AL INICIO</a>
+  </footer>
+
+
+  <!-- JavaScript Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

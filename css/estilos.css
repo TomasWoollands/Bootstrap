@@ -1,0 +1,145 @@
+
+/* CONFIGURACION GENERAL */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  margin: 0;
+  background-color: #e8d3ae;
+  color: #382216;
+  font-family: Georgia, serif;
+}
+
+/* MENU */
+
+.navbar {
+  background-color: #321b12;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.nav-link {
+  color: #f0dfbb !important;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  color: #d68b46 !important;
+}
+
+/* PORTADA */
+
+.portada {
+  min-height: 650px;
+  background:
+    linear-gradient(rgba(35, 20, 10, 0.45),
+    rgba(35, 20, 10, 0.65)),
+    url("../imagenes/fondo.jfif");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.contenido-portada h1 {
+  font-size: 90px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.contenido-portada p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+/* BOTONES */
+
+.btn-western {
+  background-color: #8b4d25;
+  color: white;
+  border: 2px solid #321b12;
+  padding: 12px 30px;
+  font-weight: bold;
+}
+
+.btn-western:hover {
+  background-color: #c76b32;
+  color: white;
+}
+
+/* SECCIONES */
+
+.seccion {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.seccion h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  font-size: 18px;
+  max-width: 650px;
+  margin: auto;
+}
+
+/* TARJETAS */
+
+.tarjeta {
+  height: 100%;
+  background-color: #f3e4c8;
+  border: 2px solid #80502d;
+  color: #382216;
+}
+
+.tarjeta img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.tarjeta h3 {
+  font-weight: bold;
+}
+
+/* DESARROLLO */
+
+
+
+.seccion-oscura {
+  background-color: #493020;
+  color: #f0dfbb;
+}
+
+.seccion-oscura h3 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+  background-color: #321b12;
+  color: #f0dfbb;
+  text-align: center;
+  padding: 35px;
+}
+
+footer a {
+  color: #d68b46;
+  text-decoration: none;
+}
