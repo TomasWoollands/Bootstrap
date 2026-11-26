@@ -21,7 +21,7 @@ function preload(){
   corazones[2] = loadImage("data/corazones2.png");
   corazones[1] = loadImage("data/corazones1.png");
   corazones[0] = loadImage("data/corazones0.png");
-  portada = loadImage("data/Titulo.jpeg");
+  portada = loadImage("data/titulo.jpeg");
   fondo = loadImage("data/fondoart.jfif");
   instrucciones = loadImage("data/instrucciones.jpg");
   derrota = loadImage("data/derrota.jfif");
