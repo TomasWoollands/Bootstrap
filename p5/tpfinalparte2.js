@@ -41,7 +41,7 @@ function preload(){
   }
 
   for (let i = 0; i < 7; i++) {
-    caballoSalta[i] = loadImage("data/saltoCaballo-" + i + ".png");
+    caballoSalta[i] = loadImage("data/SaltoCaballo-" + i + ".png");
   }
 
 }
